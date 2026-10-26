@@ -1,0 +1,17 @@
+###
+
+GET http://localhost:3000/materias
+
+###
+
+POST http://localhost:3000/materias
+Content-Type: application/json
+
+{
+    "nome": "Programação Web",
+    "professor": "Marcos",
+    "cargaHoraria": 80,
+    "nota": 9.5,
+    "aprendizado": "Criei minha primeira API com Express",
+    "imagem": "https://www.tynker.com/projects/screenshot/6439f874c62efa2358762412/ooga-booga-meme.png"
+}
